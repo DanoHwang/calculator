@@ -14,12 +14,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.flex_row {
+.flex-row {
   display: flex;
   flex-direction: row;
 }
 
-.flex_column {
+.flex-column {
   display: flex;
   flex-direction: column;
 }
@@ -39,7 +39,7 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.display_text {
+.display-text {
   margin: 0.5em 0.3em 0.1em 0.1em;
   font-family: 'Orbitron';
   font-size: 2.5em;
@@ -69,7 +69,7 @@ body {
 
 .number,
 .operator,
-.long_button {
+.long-button {
   cursor: pointer;
 }
 
@@ -98,13 +98,13 @@ body {
   color: #1686fd84;
 }
 
-.long_buttons {
+.long-buttons {
   flex: 1 0 50%;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.long_button {
+.long-button {
   width: 45%;
   height: 90%;
   border-radius: 0.5em;
@@ -112,7 +112,7 @@ body {
   font-size: small;
 }
 
-.button_container {
+.button-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,7 +124,7 @@ body {
   border-radius: 1.5em;
 }
 
-.button_outside {
+.button-outside {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,7 +138,7 @@ body {
   border-radius: 1em;
 }
 
-.button_inside {
+.button-inside {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,7 +151,7 @@ body {
   border-radius: 0.5em;
 }
 
-.button_outside:hover {
+.button-outside:hover {
   background: linear-gradient(180deg, #EAEAEA 0%, #F4F4F4 100%);
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.15);
   color:rgba(183, 190, 199, 0.5);
